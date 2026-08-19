@@ -7,7 +7,7 @@
 <style> 
  header{
   background-color: rgb(204, 255, 0.959);
-  color: rgb(95, 2,15);
+  color: rgb(95, 2, 15);
   text-align:center; 
  max-width: 800px;
  margin: 0 auto;
@@ -18,36 +18,40 @@ main{
 background-color:black;
 color:beige;
 text-align:center;
-max: width 800px;
-margin:0 anto;
-display:flex;
+max-width: 800px;
+margin: 0 anto;
+display: flex;
 p.autor { 
-    font-weight:bold;
+    font-weight: bold;
 }
-{
-img}
+}
+img {
    width: 80px;
    height: 80px;
  }
    </style>
 </head>
 <body>
-<header>
-<h1> trabalho 1b</h1>   
-    <p>Aprende a produzir um site</p>
+     <header>
+             <h1> Trabalho 1 B</h1>   
+             <p>Aprende a produzir um site</p>
     </header>
     <main>
-        <img src+"imagem.png"> alt="imagem da aula de educação digital">
+        <img src="imagem.png"> alt="imagem da aula de educação digital">
         <div>
-            <h2> Exercício de aula do 1 B </h2>
-            <p class=" autor"> Por: Daniel </p>
-            <p> Este site é um exercício de aula de educação digital</p>
-            <button> 👍</span>0</button</span></div><button></button> 
+              <h2> Exercício de aula do 1 B </h2>
+              <p class=" autor"> Por: Daniel </p>
+            <p>Este site é um exercício de aula de educação digital</p>
+            <button>👍</span>0</span></div></button> 
             </div>
         </main> 
         </body>
         <script>
             const botao = document. querySelector("button");
- botao. addEventListener ("click", botaoClicado)
-function botaoClicado() {
- let texto = botao.querySelector ("span");
+            botao.addEventListener ("click", botaoClicado);  
+            function botaoClicado() {
+                let texto = botao.querySelector ("span");
+                texto.textConten++;
+            }
+</script>
+</html>
